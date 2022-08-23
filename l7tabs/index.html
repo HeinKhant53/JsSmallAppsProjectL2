@@ -12,25 +12,25 @@
 
         <ul class="nav">
             <li class="nav-item">
-                <button type="button" class="tablinks active">Home</button>
+                <button type="button" id="autoclick" class="tablinks" onclick="gettab(event,'home')">Home</button>
             </li>
 
             <li  class="nav-item">
-                <button type="button" class="tablinks">Profile</button>
+                <button type="button" class="tablinks" onclick="gettab(event,'profile')">Profile</button>
             </li>
 
             <li  class="nav-item">
-                <button type="button" class="tablinks">Contacts</button>
+                <button type="button" class="tablinks" onclick="gettab(event,'contacts')">Contacts</button>
             </li>
 
             <li  class="nav-item">
-                <button type="button" class="tablinks">Settings</button>
+                <button type="button" class="tablinks" onclick="gettab(event,'settings')">Settings</button>
             </li>
         </ul>
 
 
         <div class="tab-content">
-            <div id="home" class="tab-pane">
+            <div id="home" class="tabpane">
                 <span class="btn-close">&times;</span>
                 
                 <h3>This is Home Information</h3>
@@ -38,7 +38,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
-            <div id="profile" class="tab-pane">
+            <div id="profile" class="tabpane">
                 <span class="btn-close">&times;</span>
                 
                 <h3>This is Profile Information</h3>
@@ -46,7 +46,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
-            <div id="contacts" class="tab-pane">
+            <div id="contacts" class="tabpane">
                 <span class="btn-close">&times;</span>
                 
                 <h3>This is Contacts Information</h3>
@@ -54,7 +54,7 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
-            <div id="settings" class="tab-pane">
+            <div id="settings" class="tabpane">
                 <span class="btn-close">&times;</span>
                 
                 <h3>This is Settings Information</h3>

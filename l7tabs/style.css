@@ -41,10 +41,10 @@ body{
 }
 
 .tab-content{
-
+    background-color: #ccc;;
 }
 
-.tab-pane{
+.tabpane{
     border: 1px solid #ccc;
     border-top: none;
     padding: 5px 15px;
